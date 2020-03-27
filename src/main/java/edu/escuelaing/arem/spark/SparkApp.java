@@ -28,9 +28,8 @@ public class SparkApp {
         Integer numberSquare=0;
 
 		try {
-	        /*new URL("https://amazon_url+?value=" + inputValue);*/ 
 
-			url=null;
+			url=new URL("https://53fxx0gpsi.execute-api.us-east-1.amazonaws.com/beta?value=" + inputValue); 
 			reader = new BufferedReader(new InputStreamReader(url.openStream()));
 			
 			while((readInput=reader.readLine())!=null) {
