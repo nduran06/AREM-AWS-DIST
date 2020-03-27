@@ -90,7 +90,6 @@ mvn exec:java
 ```
 or
 
-For running Server class
 ```markdown
 $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.spark.SparkApp"
 ```
